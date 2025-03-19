@@ -1,6 +1,5 @@
 import numpy as np
 from scipy.stats import binom, norm, gamma
-import argparse
 
 def simulate_and_recover(N, iterations=1000):
     results = []
@@ -38,7 +37,7 @@ def simulate_and_recover(N, iterations=1000):
     return results
 
 if __name__ == "__main__":
-     # Define the number of iterations and sample size manually
+     #  the number of iterations and sample size 
     iterations = 1000
     N_values = [10, 40, 4000]
     
